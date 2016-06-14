@@ -1,0 +1,1 @@
+-include vendor/invisiblek/BoardConfigExtra.mk
