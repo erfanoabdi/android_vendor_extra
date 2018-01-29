@@ -3,6 +3,8 @@ PRODUCT_PACKAGES += auditd
 
 $(call prepend-product-if-exists, vendor/invisiblek/product.mk)
 
+TARGET_EXTRA_KERNEL_MODULES := wireguard
+
 # Themes
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PROPERTY_OVERRIDES += ro.boot.vendor.overlay.theme=com.google.android.theme.pixel
