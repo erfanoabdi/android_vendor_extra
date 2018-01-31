@@ -3,6 +3,11 @@ PRODUCT_PACKAGES += auditd
 
 $(call prepend-product-if-exists, vendor/invisiblek/product.mk)
 
+ifneq ($(filter lineage_marlin lineage_mata lineage_nash lineage_sailfish,$(TARGET_PRODUCT)),)
+GAPPS_VARIANT := nano
+$(call inherit-product-if-exists, vendor/opengapps/build/opengapps-packages.mk)
+endif
+
 TARGET_EXTRA_KERNEL_MODULES := wireguard
 
 PRODUCT_COPY_FILES += \
