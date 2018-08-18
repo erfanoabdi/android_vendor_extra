@@ -1,2 +1,0 @@
-on property:persist.sys.net.ipv4.ip_default_ttl=*
-    write /proc/sys/net/ipv4/ip_default_ttl ${persist.sys.net.ipv4.ip_default_ttl}
