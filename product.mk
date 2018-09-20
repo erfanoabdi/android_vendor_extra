@@ -8,6 +8,12 @@ PRODUCT_PACKAGES += \
     PixelTheme \
     P-Hotness
 
+# Pixel Launcher
+PRODUCT_PACKAGES += \
+    launchercheck.rc \
+    launchercheck.sh \
+    pixelrecents
+
 # Fonts
 ADDITIONAL_FONTS_FILE := vendor/extra/fonts/google-sans.xml
 
