@@ -24,3 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/extra/fonts/GoogleSans-Italic.ttf:system/fonts/GoogleSans-Italic.ttf \
     vendor/extra/fonts/GoogleSans-Bold.ttf:system/fonts/GoogleSans-Bold.ttf \
     vendor/extra/fonts/GoogleSans-BoldItalic.ttf:system/fonts/GoogleSans-BoldItalic.ttf
+
+USE_MOTO_AUDIOHAL := true
+USE_MOTO_HEALTHHAL := true
