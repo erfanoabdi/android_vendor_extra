@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Supported accent packages -->
+    <string-array name="accent_packages" translatable="false">
+        <item>org.lineageos.overlay.accent.red</item>
+        <item>org.lineageos.overlay.accent.pink</item>
+        <item>org.lineageos.overlay.accent.purple</item>
+        <item>org.lineageos.overlay.accent.blue</item>
+        <item>org.lineageos.overlay.accent.cyan</item>
+        <item>org.lineageos.overlay.accent.green</item>
+        <item>org.lineageos.overlay.accent.orange</item>
+        <item>org.lineageos.overlay.accent.yellow</item>
+        <item>org.lineageos.overlay.accent.brown</item>
+        <item>org.lineageos.overlay.accent.black</item>
+        <item>com.google.android.theme.pixel</item>
+    </string-array>
+
+</resources>
