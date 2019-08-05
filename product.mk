@@ -5,16 +5,9 @@ DEVICE_PACKAGE_OVERLAYS += vendor/extra/overlay-lineage
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/extra/overlay-lineage
 PRODUCT_PROPERTY_OVERRIDES += ro.boot.vendor.overlay.theme=com.google.android.theme.pixel
 PRODUCT_PROPERTY_OVERRIDES += ro.com.google.ime.theme_id=5
-PRODUCT_PROPERTY_OVERRIDES += persist.sys.overlay.photness=true
 PRODUCT_PACKAGES += \
-    PixelTheme \
-    P-Hotness
-
-# Pixel Launcher
-PRODUCT_PACKAGES += \
-    launchercheck.rc \
-    launchercheck.sh \
-    pixelrecents
+    pixelrecents \
+    PixelTheme
 
 # Fonts
 ADDITIONAL_FONTS_FILE := vendor/extra/fonts/google-sans.xml
