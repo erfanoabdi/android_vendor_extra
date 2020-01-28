@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.google.android.theme.pixel"
-    platformBuildVersionCode="26"
-    platformBuildVersionName="8.0.0">
+    android:versionCode="1"
+    android:versionName="1.0">
 
-    <overlay android:priority="1" android:targetPackage="android" />
+    <overlay android:label="Pixel" android:priority="1" android:targetPackage="android" />
 
     <application android:hasCode="false"
-                 android:label="Pixel" />
+                 android:label="Pixel" >
+
+        <meta-data android:name="lineage_berry_accent_preview"
+                  android:value="#4285f4" />
+
+    </application>
+
 </manifest>

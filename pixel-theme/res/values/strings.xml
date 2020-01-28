@@ -1,4 +1,0 @@
-<resources>
-    <!-- Content description of the home button for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
-    <string name="accessibility_home">Home</string>
-</resources>
