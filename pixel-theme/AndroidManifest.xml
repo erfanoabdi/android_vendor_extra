@@ -6,5 +6,5 @@
 
     <overlay android:label="Pixel" android:priority="1" android:targetPackage="android" />
 
-    <application android:hasCode="false" android:label="Pixel" />
+    <application android:isStatic="true" android:hasCode="false" android:label="Pixel" />
 </manifest>
