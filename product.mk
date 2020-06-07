@@ -11,9 +11,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleFonts
 
-PRODUCT_COPY_FILES += \
-    vendor/extra/GoogleFonts/google-fonts.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
-
 ## Media
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.config.vc_call_vol_steps=7 \
